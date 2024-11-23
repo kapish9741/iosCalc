@@ -1,0 +1,102 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    -webkit-tap-highlight-color: transparent;
+
+
+}
+
+body {
+    min-height: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container {
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: 40px;
+    margin-left: 5px;
+}
+
+.result {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 40%;
+}
+
+.result span {
+    font-size: 100px;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+
+.buttons {
+    width: 100%;
+    height:60%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    margin: 5px;
+    align-self: center;
+    justify-self: center;
+}
+
+.item1 {
+    background-color: #A5A5A5;
+    color: black;
+    border: none;
+}
+
+.item1:active {
+    background-color: #D4D4D2;
+}
+
+.item2 {
+    background-color: #FF9500;
+    font-size: 50px;
+    border: none;
+}
+
+.item2:active{
+    background-color: white;
+    color: #FF9500;
+    
+}
+
+.numbers {
+    background-color: #343434;
+    border: none;
+}
+
+.numbers:active {
+    background-color: #505050;
+}
+
+.zero {
+    background-color: #343434;
+    border: none;
+    width: 185px;
+    border-radius: 75px;
+    grid-column: span 2;
+}
+
+.zero:active {
+    background-color: #505050;
+}
